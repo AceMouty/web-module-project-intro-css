@@ -138,3 +138,12 @@ header {
 }
 
 /* Footer */
+footer {
+    padding-top: 1rem;
+}
+.image-container_footer {
+    background-image: url("./assets/footer_img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+}
