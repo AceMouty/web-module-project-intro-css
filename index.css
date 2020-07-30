@@ -100,7 +100,9 @@ header {
     width: 50%;
 }
 
+/* ======================================== */
 /* History */
+/* ======================================== */
 .history{
     background-color: #DDB9A3;
     margin: 0 auto;
@@ -109,3 +111,30 @@ header {
     padding: 1rem 2rem;
     font-size: 2.3rem;
 }
+
+/* ======================================== */
+/*                  About                   */
+/* ======================================== */
+
+.fire-container,
+.reserve-container {
+    display: flex;
+    margin-top: 2rem;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image-container_about img,
+.image-container_reserve img {
+    height: 10rem;
+}
+
+.fire-container p,
+.reserve-container p {
+    width: 20%;
+    line-height: 1.5;
+    font-size: 1.2rem;
+    /* border: 2px solid red; */
+}
+
+/* Footer */
